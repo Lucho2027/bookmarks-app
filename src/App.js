@@ -5,6 +5,7 @@ import BookmarkList from "./BookmarkList/BookmarkList";
 import BookmarksContext from "./BookmarksContext";
 import Nav from "./Nav/Nav";
 import config from "./config";
+import Rating from "./Rating/Rating";
 import "./App.css";
 
 class App extends Component {
@@ -67,6 +68,7 @@ class App extends Component {
             <Route path="/add-bookmark" component={AddBookmark} />
             <Route exact path="/" component={BookmarkList} />
           </div>
+          <Rating />
         </BookmarksContext.Provider>
       </main>
     );
