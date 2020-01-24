@@ -1,15 +1,8 @@
-{
-  "version": 2,
-  "alias": "toms-bookmarks-app",
+{"version": 2,
+  "alias":"lucho-bookmarks-app",
   "name": "bookmarks-app",
   "routes": [
-      {
-        "src": "^/static/(.*)",
-        "dest": "/static/$1"
-      },
-      {
-        "src": ".*",
-        "dest": "/index.html"
-      }
+      { "handle": "filesystem" },
+      { "src": "/.*", "dest": "/index.html" }
   ]
 }
