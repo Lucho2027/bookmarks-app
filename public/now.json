@@ -1,8 +1,0 @@
-{"version": 2,
-  "alias":"lucho-bookmarks-app",
-  "name": "bookmarks-app",
-  "routes": [
-      { "handle": "filesystem" },
-      { "src": "/.*", "dest": "/index.html" }
-  ]
-}

@@ -1,0 +1,14 @@
+{
+	"version": 2,
+	"alias": "lucho-bookmarks-app",
+	"name": "bookmarks-app",
+	"routes": [
+		{ "handle": "filesystem" },
+		{ "src": "/.*", "dest": "/index.html" }
+	],
+	"build": {
+		"env": {
+			"REACT_APP_API_KEY": "12d11ae8-4ff2-423d-9ccb-232942bc6b6d",
+		}
+	}
+}

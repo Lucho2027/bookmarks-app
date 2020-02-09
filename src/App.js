@@ -50,7 +50,7 @@ class App extends Component {
 			})
 			.then(this.setBookmarks)
 			.catch(error => {
-				console.error(error)
+				console.log(error)
 				this.setState({ error })
 			})
 	}
